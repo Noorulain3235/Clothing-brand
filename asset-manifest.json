@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Clothing-brand/static/css/main.882d3cd2.css",
+    "main.js": "/Clothing-brand/static/js/main.4c9726ba.js",
+    "index.html": "/Clothing-brand/index.html",
+    "main.882d3cd2.css.map": "/Clothing-brand/static/css/main.882d3cd2.css.map",
+    "main.4c9726ba.js.map": "/Clothing-brand/static/js/main.4c9726ba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.882d3cd2.css",
+    "static/js/main.4c9726ba.js"
+  ]
+}
