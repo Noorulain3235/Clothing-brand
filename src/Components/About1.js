@@ -60,7 +60,8 @@ const ProductCard = ({ product }) => {
             <button
               key={color.name}
               onClick={() => setSelectedColor(color.name)}
-              className={`w-4 h-4 md:w-6 md:h-6 rounded-full border border-gray-300 transition-transform duration-200
+              className={`w-4 h-4 md:w-6 md:h-6 rounded-full border border-gray-300
+                 transition-transform duration-200
                 ${colorClassMap[color.name]}
                 ${selectedColor === color.name
                   ? "ring-2 ring-offset-2 ring-black"
@@ -131,11 +132,7 @@ export default function About1() {
 
   return (
     <div className="relative min-h-screen py-10  bg-white">
-      <div className="py-24  text-center">
-        <h1 className="text-3xl md:text-5xl font-semibold mt-2 font-serif italic">
-          Most Popular
-        </h1>
-      </div>
+      
 
       {/* Cards code*/}
       <div className="grid grid-cols-2 md:mb-8 md:sm:grid-cols-2
