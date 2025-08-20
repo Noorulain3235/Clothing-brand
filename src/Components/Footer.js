@@ -7,10 +7,10 @@ export default function Footer() {
         <>
 
             <div className="relative w-full bg-white text-black py-8 px-4 text-center">
-                <div className="flex flex-col md:flex-row justify-center mt-7  gap-10">
+                <div className="flex flex-col md:flex-row justify-center mt-7 gap-10">
 
                     {/* 1 */}
-                    <div className="flex flex-col px-4 text-start w-[270px]">
+                    <div className="flex flex-col px-4 text-center md:text-start w-[270px]">
                         
                          <h1 className="text-lg  font-serif mb-4">
                             Menu
@@ -50,7 +50,7 @@ export default function Footer() {
                     </div>
 
                     {/* 2 */}
-                   <div className="flex flex-col px-4 text-start w-[270px]">
+                   <div className="flex flex-col px-4 text-center md:text-start w-[270px]">
                         
                          <h1 className="text-lg  font-serif mb-4">
                             Categories
@@ -90,7 +90,7 @@ export default function Footer() {
                     </div>
 
                     {/* 3 */}
-                    <div className="flex flex-col px-4 text-start w-[270px]">
+                    <div className="flex flex-col px-4 text-center md:text-start w-[270px]">
                         
                          <h1 className="text-lg  font-serif mb-4">
                             Resources
@@ -130,7 +130,7 @@ export default function Footer() {
                     </div>
 
                     {/* 4 */}
-                      <div className="flex flex-col px-4 text-start w-[170px]">
+                      <div className="flex flex-col px-4 text-center md:text-start w-[270px]">
                         
                          <h1 className="text-lg  font-serif mb-4">
                             Social Media
