@@ -1,29 +1,31 @@
 import React from "react"; 
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar";
-import Heroimage from "./Components/Heroimage";
-import Aboutus1 from "./Components/Aboutus1";
-import Background2 from "./Components/Background2";
-import Background3 from "./Components/Background3";
-import About2 from "./Components/About2";
-import Background4 from "./Components/Background4";
+import Home from "./Components/Home";
 import Footer from "./Components/Footer";
+import About from "./container/About";
 
-
-
-
-function App() {
+function Main() {
   return (
-    <div className="App">
-      <Navbar/>
-      <Heroimage/>
-      <Aboutus1/>
-      <Background2/>
-      <About2/>
-      <Background3/>
-       <Background4/>
-       <Footer/>
-    </div>
+    <>
+      <Home />
+    </>
   );
 }
 
-export default App;
+export default function App() {
+  return (
+    <HashRouter>
+      <div>
+        <Navbar />
+
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+
+        <Footer />
+      </div>
+    </HashRouter>    
+  );
+}

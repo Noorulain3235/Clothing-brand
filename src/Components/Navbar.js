@@ -5,7 +5,7 @@ import { Search, ShoppingCart, X } from "lucide-react";
 const navItems = [
   { label: "Home", path: "/" },
   { label: "Shop", path: "/Shop" },
-  { label: "About Us", path: "/Aboutus" },
+  { label: "About Us", path: "/About" },
   { label: "Contact Us", path: "/Contactus" },
 ];
 
