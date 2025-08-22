@@ -1,7 +1,7 @@
 import React from "react";
 import { ProductCard2 } from "./common/card";
 
-import { products2 } from "../constant/index"; // Importing products2 from constant
+import { products2 } from "../constant/index"; 
 
 
 
