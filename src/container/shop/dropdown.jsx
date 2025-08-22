@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import ProductCard from "./common/card";
-import { products as productsData, products2 as products2Data } from "../constant/index";
-import { ProductCard2 } from "./common/card";
+import ProductCard from "../../Components/common/card";
+import { products as productsData, products2 as products2Data } from "../../constant/index";
+import { ProductCard2 } from "../../Components/common/card";
 
 export default function ProductList() {
   const [sortOption, setSortOption] = useState("default");

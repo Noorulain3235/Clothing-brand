@@ -1,5 +1,5 @@
 import React from "react";
-import Background4 from "../Components/Background4";
+import Background4 from "../../Components/Background4";
 
 
 export default function About() {
